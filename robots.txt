@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /panel.html
+Disallow: /api.php
+Disallow: /check.php
+Allow: /
+
+Sitemap: https://whitecash.ru/sitemap.xml

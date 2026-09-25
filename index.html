@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>КВАРТАЛ — дебетовые и кредитные карты, займы МФО онлайн</title>
+<meta name="description" content="КВАРТАЛ — витрина проверенных предложений банков и МФО: дебетовые и кредитные карты, займы онлайн. Заявка на сайте партнёра за несколько минут.">
+<meta name="theme-color" content="#efe8dc">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css?v=20260922">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Перейти к каталогу предложений</a>
+
+<!-- Декоративный фон: бумага, размытые пятна туши и силуэт города.
+     Для скринридера это ничто — aria-hidden, клики сквозь него. -->
+<div class="scene" aria-hidden="true">
+  <div class="scene__wash scene__wash--a"></div>
+  <div class="scene__wash scene__wash--b"></div>
+  <div class="scene__wash scene__wash--c"></div>
+  <svg class="scene__city" viewBox="0 0 1600 420" preserveAspectRatio="xMidYMax slice" focusable="false" aria-hidden="true">
+    <g class="scene__far">
+      <path d="M0 300 C120 230 220 250 330 210 C420 180 470 240 560 220 C650 200 700 150 800 170 C900 190 960 230 1060 200 C1160 170 1230 220 1330 200 C1430 180 1500 230 1600 210 L1600 420 L0 420 Z"/>
+    </g>
+    <g class="scene__near">
+      <path d="M0 420 L0 330 L60 330 L60 300 L110 300 L110 340 L150 340 L150 280 L190 280 L190 340 L240 340 L240 310 L300 310 L300 250 L320 235 L340 250 L340 340 L400 340 L400 320 L470 320 L470 290 L520 290 L520 340 L580 340 L580 270 L600 270 L600 250 L620 250 L620 270 L640 270 L640 340 L700 340 L700 300 L760 300 L760 330 L820 330 L820 220 L850 200 L880 220 L880 330 L940 330 L940 290 L990 290 L990 340 L1050 340 L1050 310 L1110 310 L1110 260 L1150 260 L1150 340 L1210 340 L1210 300 L1280 300 L1280 330 L1340 330 L1340 280 L1360 265 L1380 280 L1380 340 L1440 340 L1440 310 L1500 310 L1500 340 L1560 340 L1560 320 L1600 320 L1600 420 Z"/>
+    </g>
+    <g class="scene__birds" fill="none" stroke-width="2.5" stroke-linecap="round">
+      <path d="M1210 70 q10 -10 20 0 q10 -10 20 0"/>
+      <path d="M1260 92 q8 -8 16 0 q8 -8 16 0"/>
+      <path d="M1170 110 q7 -7 14 0 q7 -7 14 0"/>
+      <path d="M300 80 q9 -9 18 0 q9 -9 18 0"/>
+      <path d="M345 100 q7 -7 14 0 q7 -7 14 0"/>
+    </g>
+  </svg>
+</div>
+
+<header class="head">
+  <div class="wrap head__in">
+    <a class="brand" href="index.html" aria-label="КВАРТАЛ — на главную">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="32" height="32" focusable="false" aria-hidden="true">
+          <rect x="1" y="1" width="30" height="30" rx="8" fill="#1a1611"/>
+          <path d="M9 8h4v7.2L19.4 8h5l-7 8.2L25 24h-5.1l-4.6-6.4L13 20.4V24H9z" fill="#efe8dc"/>
+        </svg>
+      </span>
+      <span class="brand__word">КВАРТАЛ</span>
+    </a>
+
+    <nav class="head__nav" aria-label="Основная навигация">
+      <ul role="list">
+        <li><a href="#catalog" data-jump="debit">Дебетовые карты</a></li>
+        <li><a href="#catalog" data-jump="credit">Кредитные карты</a></li>
+        <li><a href="#catalog" data-jump="mfo">Займы</a></li>
+        <li><a href="#how">Как это работает</a></li>
+      </ul>
+    </nav>
+
+    <a class="btn btn--sm head__cta" href="#catalog">В каталог</a>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+  <!-- ─────────────────────────── первый экран: «экран устройства» ─────────────────────────── -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div class="device">
+
+        <!-- Левая колонка: избранное предложение -->
+        <aside class="tile" aria-labelledby="tile-title">
+          <div class="tile__art" aria-hidden="true">
+            <span class="tile__chip">Кредитная карта</span>
+            <span class="tile__chip tile__chip--soft">Онлайн</span>
+          </div>
+          <div class="tile__body">
+            <h2 id="tile-title" class="tile__title">Кредитная карта ВТБ</h2>
+            <p class="tile__when">Льготный период · решение по анкете</p>
+
+            <div class="tile__who">
+              <span class="tile__logo"><img src="img/logos/vtb.png" alt="" width="36" height="28"></span>
+              <span><span class="tile__name">ВТБ</span><br><span class="tile__role">банк-партнёр</span></span>
+            </div>
+
+            <dl class="tile__meta">
+              <div><dt>Решение</dt><dd>онлайн по анкете</dd></div>
+              <div><dt>Доставка</dt><dd>курьером</dd></div>
+              <div><dt>Оплата</dt><dd>картой и телефоном</dd></div>
+            </dl>
+
+            <p class="tile__act">
+              <a class="btn btn--ghost btn--block" href="#catalog" data-jump="credit">Все кредитные карты</a>
+              <a class="btn btn--block" href="#catalog" data-jump="credit">Смотреть условия <span class="vh">кредитной карты ВТБ в каталоге</span></a>
+            </p>
+            <p class="tile__free">Подбор бесплатный</p>
+          </div>
+        </aside>
+
+        <!-- Правая часть: заголовок и кнопки -->
+        <div class="stage">
+          <nav class="pills" aria-label="Разделы">
+            <ul role="list">
+              <li><a class="pill" href="#catalog">Каталог</a></li>
+              <li><a class="pill" href="#how">Как это работает</a></li>
+            </ul>
+          </nav>
+
+          <div class="stage__text">
+            <p class="eyebrow"><span class="dot" aria-hidden="true"></span>29 проверенных предложений банков и МФО</p>
+            <h1 id="hero-title">Найди свою<br>карту<br>и займ</h1>
+            <p class="stage__brand" aria-hidden="true">КВАРТАЛ&nbsp;’26</p>
+            <p class="stage__lead">Карты и займы, которые оформляются онлайн. Выбирайте предложение,
+               читайте условия и отправляйте заявку прямо на сайте банка или МФО.</p>
+            <p class="stage__act">
+              <a class="btn" href="#catalog">Выбрать предложение</a>
+              <a class="btn btn--ghost" href="#how">Как это работает</a>
+            </p>
+          </div>
+
+          <!-- Большая карта, как мяч на референсе: чисто декорация -->
+          <svg class="stage__card" viewBox="0 0 520 330" focusable="false" aria-hidden="true">
+            <defs>
+              <linearGradient id="cg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#f6efe2"/>
+                <stop offset="1" stop-color="#d9cfbd"/>
+              </linearGradient>
+              <pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse">
+                <circle cx="4.5" cy="4.5" r="1.05" fill="#b3a68e" opacity=".55"/>
+              </pattern>
+            </defs>
+            <rect x="8" y="8" width="504" height="314" rx="30" fill="url(#cg)" stroke="#a89b85" stroke-width="2"/>
+            <rect x="8" y="8" width="504" height="314" rx="30" fill="url(#dots)"/>
+            <rect x="44" y="92" width="72" height="54" rx="10" fill="#e9dfcc" stroke="#a89b85" stroke-width="2"/>
+            <path d="M44 110h72M44 128h72M80 92v54" stroke="#a89b85" stroke-width="2"/>
+            <path d="M420 62 a22 22 0 0 1 0 44 M436 48 a38 38 0 0 1 0 72 M452 34 a54 54 0 0 1 0 100" fill="none" stroke="#a89b85" stroke-width="3" stroke-linecap="round"/>
+            <text x="44" y="252" font-family="Oswald, Impact, sans-serif" font-weight="600" font-size="34" letter-spacing="4" fill="#5c554b">0000  0000  0000  0000</text>
+            <text x="44" y="292" font-family="Manrope, Arial, sans-serif" font-weight="600" font-size="15" letter-spacing="3" fill="#7a6f5e">КВАРТАЛ · 2026</text>
+            <circle cx="450" cy="262" r="26" fill="#1a1611" opacity=".85"/>
+            <circle cx="480" cy="262" r="26" fill="#8a8073" opacity=".8"/>
+          </svg>
+        </div>
+      </div>
+
+      <ul class="hero__stats" role="list">
+        <li><b>29</b><span>предложений в каталоге</span></li>
+        <li><b>3</b><span>раздела: карты и займы</span></li>
+        <li><b>0 ₽</b><span>стоимость подбора</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── каталог ─────────────────────────── -->
+  <section class="catalog" id="catalog" aria-labelledby="catalog-title" tabindex="-1">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Каталог</p>
+        <h2 id="catalog-title">Три раздела. Выбери свой</h2>
+        <p class="sec-head__lead">Дебетовые карты для повседневных трат, кредитные карты
+           с льготным периодом и займы МФО, когда деньги нужны сегодня.</p>
+      </div>
+
+      <!-- Вкладки и панели рисует js/catalog.js из data.js. -->
+      <div class="tabs" id="tabs" role="tablist" aria-label="Категории предложений"></div>
+      <div id="panels"></div>
+
+      <p class="disclosure">На кнопках стоят партнёрские ссылки: если вы оформите продукт,
+         КВАРТАЛ получит вознаграждение от банка или МФО. Для вас условия не меняются:
+         вы попадаете на официальный сайт компании и оформляете заявку там.</p>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── как это работает ─────────────────────────── -->
+  <section class="how" id="how" aria-labelledby="how-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Порядок</p>
+        <h2 id="how-title">Как это работает</h2>
+      </div>
+
+      <ol class="steps" role="list">
+        <li class="step">
+          <span class="step__n" aria-hidden="true">01</span>
+          <h3>Выбираете раздел</h3>
+          <p>Дебетовые карты, кредитные карты или займы МФО. В каждой карточке банк,
+             название продукта и ключевые условия.</p>
+        </li>
+        <li class="step">
+          <span class="step__n" aria-hidden="true">02</span>
+          <h3>Переходите к партнёру</h3>
+          <p>Кнопка ведёт на официальный сайт банка или МФО. Никаких посредников
+             и предоплат: КВАРТАЛ сам ничего не оформляет.</p>
+        </li>
+        <li class="step">
+          <span class="step__n" aria-hidden="true">03</span>
+          <h3>Оформляете заявку</h3>
+          <p>Заполняете анкету на сайте компании. Решение приходит онлайн,
+             карту привозит курьер, деньги по займу поступают на карту.</p>
+        </li>
+      </ol>
+
+      <ul class="pluses" role="list">
+        <li class="plus">
+          <h3>Только проверенные компании</h3>
+          <p>В каталоге банки с лицензией ЦБ и МФО из государственного реестра.</p>
+        </li>
+        <li class="plus">
+          <h3>Честные условия</h3>
+          <p>Мы не обещаем «одобрение всем»: решение принимает банк или МФО по своим правилам.</p>
+        </li>
+        <li class="plus">
+          <h3>Бесплатно для вас</h3>
+          <p>Подбор ничего не стоит: комиссию платит партнёр, а не посетитель.</p>
+        </li>
+        <li class="plus">
+          <h3>Заявка онлайн</h3>
+          <p>Большинство продуктов оформляется по паспорту, без визита в офис.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <div class="foot__brand">
+      <span class="brand__word">КВАРТАЛ</span>
+      <p>Витрина финансовых продуктов: дебетовые и кредитные карты, займы МФО.</p>
+    </div>
+
+    <nav class="foot__nav" aria-label="Разделы сайта">
+      <ul role="list">
+        <li><a href="#catalog" data-jump="debit">Дебетовые карты</a></li>
+        <li><a href="#catalog" data-jump="credit">Кредитные карты</a></li>
+        <li><a href="#catalog" data-jump="mfo">Займы</a></li>
+        <li><a href="privacy.html">Политика обработки данных</a></li>
+      </ul>
+    </nav>
+
+    <p class="foot__legal">Сайт носит информационный характер и не является публичной офертой.
+       КВАРТАЛ не выдаёт кредиты и займы, не принимает платежи и не запрашивает
+       данные карт. Все решения принимают банки и микрофинансовые организации.
+       Условия уточняйте на сайте выбранной компании.
+       <span class="foot__year">© <span id="year">2026</span> КВАРТАЛ</span></p>
+  </div>
+</footer>
+
+<script src="data.php"></script>
+<script>if(typeof OFFERS==="undefined"){document.write('<script src="data.js?v=20260922"><\/script>');}</script>
+<script src="js/catalog.js?v=20260922"></script>
+<script src="js/app.js?v=20260922"></script>
+</body>
+</html>
